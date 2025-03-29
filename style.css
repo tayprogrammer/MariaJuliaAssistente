@@ -174,3 +174,39 @@ a:hover::after {
     font-size: 0.9em;
     margin-top: 1rem;
     font
+.nav-termos {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--primary-color);
+            padding: 1rem;
+            z-index: 1000;
+            box-shadow: var(--box-shadow);
+        }
+
+        .nav-termos ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav-termos a {
+            color: white;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-termos a:hover {
+            background: var(--secondary-color);
+        }
+
+        /* Ajuste o padding do body para compensar a nav fixa */
+        body {
+            padding-top: 6rem;
+        }
