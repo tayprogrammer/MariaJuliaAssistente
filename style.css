@@ -141,3 +141,36 @@ a:hover::after {
     scroll-behavior: smooth;
   }
 }
+
+/* Estilos para as novas funcionalidades */
+.secao-ativa {
+    background: #fff !important;
+    border-left: 4px solid var(--secondary-color);
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    background: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: var(--box-shadow);
+}
+
+.ultima-atualizacao {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 1rem;
+    font
