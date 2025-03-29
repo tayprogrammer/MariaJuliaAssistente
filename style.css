@@ -18,7 +18,7 @@
             box-shadow: var(--box-shadow);
         }
 
-        .nav-termos ul {
+.nav-termos ul {
             list-style: none;
             padding: 0;
             margin: 0;
@@ -27,7 +27,7 @@
             gap: 2rem;
         }
 
-        .nav-termos a {
+.nav-termos a {
             color: white;
             font-weight: 500;
             padding: 0.5rem 1rem;
@@ -35,11 +35,11 @@
             transition: all 0.3s ease;
         }
 
-        .nav-termos a:hover {
+.nav-termos a:hover {
             background: var(--secondary-color);
         }
 
-        /* Ajuste o padding do body para compensar a nav fixa */
+     /* Ajuste o padding do body para compensar a nav fixa */
         body {
             padding-top: 6rem;
         }
